@@ -1,0 +1,18 @@
+xxx=kafka1:9092,kafka2:9093,kafka3:9094,localhost:29092,localhost:29093,localhost:29094
+KAFKA_BROKER=localhost:29093
+
+KAFKA_TOPIC=DataWriterReadTopic
+KAFKA_GROUP_ID=test-group2
+
+DB_USER=root
+DB_PASSWORD=root
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=test
+
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=mydatabase
+MONGO_COLL=data
+
+#application related
+DATA_SUPPLY_SOURCE=kafka #mock
